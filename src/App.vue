@@ -1,47 +1,32 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <v-sheet class="text-center">
+    <h1 class="text-fill">Sam's Website</h1>
+    <img class="center-x" alt="Vue logo" src="./assets/octopus.png" width="480" height="400" />
+  </v-sheet>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
+.center-x {
   display: block;
-  margin: 0 auto 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center-y {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-fill{
+  line-height: 1em;
+  font-size: 3em;
+  font-family: 'Apple Chancery Chancery', cursive;
+  text-align: center;
+  padding-bottom: 0.2em;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
