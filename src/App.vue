@@ -5,7 +5,11 @@
 <template>
   <v-sheet class="text-center">
     <h1 class="text-fill">Sam's Website</h1>
-    <img class="center-x" alt="Vue logo" src="./assets/octopus.png" width="480" height="400" />
+    <!-- <img class="center-x" alt="Vue logo" src="./assets/octopus.png" width="25%" height="25%" /> -->
+    <p style="text-align: center;">Hello bel</p>
+    <!-- <v-card>
+      <v-card-text>this is a card component</v-card-text>
+    </v-card> -->
   </v-sheet>
 
 </template>
